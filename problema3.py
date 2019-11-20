@@ -29,10 +29,11 @@ while True:
             print("persona registrada")
         else:
             print("Persona no apta")
-    elif personas==5:
+    elif personas==4:
         break
 
 promedio = (lista[2][0]+lista[2][1]+lista[2][2]+lista[2][3]+lista[2][4])/5
+
 print("***********Resumen*********")
 
 for i in range(0,4):
